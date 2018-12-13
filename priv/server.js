@@ -4,9 +4,6 @@ const readline = require('readline')
 
 require('babel-polyfill')
 require('@babel/register')({
-  presets: [
-    '@babel/env'
-  ]
 })
 
 function deleteCache(componentPath) {
